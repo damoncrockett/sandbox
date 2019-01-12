@@ -19,6 +19,7 @@ install Homebrew
 add to .bash_profile:
 
 export NVM_DIR=~/.nvm
+
 source $(brew --prefix nvm)/nvm.sh 
 
 ----------
