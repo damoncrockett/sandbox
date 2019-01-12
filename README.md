@@ -45,5 +45,7 @@ source $(brew --prefix nvm)/nvm.sh
 add to .gitignore:
 
 .DS_Store
+
 node_modules
+
 dist
