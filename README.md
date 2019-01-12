@@ -8,11 +8,11 @@ install Homebrew
 
 ----------
 
-brew install nvm
+`brew install nvm`
 
 ----------
 
-mkdir ~/.nvm
+`mkdir ~/.nvm`
 
 ----------
 
@@ -23,19 +23,20 @@ source $(brew --prefix nvm)/nvm.sh
 
 ----------
 
-nvm install 10.13.0
-nvm use 10.13.0
+`nvm install 10.13.0`
+
+`nvm use 10.13.0`
 
 ----------
 
-brew install yarn --without-node
+`brew install yarn --without-node`
 
 ----------
 
-npm init -y [answers 'yes' to all prompts]
+`npm init -y` answers 'yes' to all prompts
 
 ----------
 
-yarn add webpack webpack-cli --dev [only need pre-build]
+`yarn add webpack webpack-cli --dev` only need pre-build
 
 ----------
