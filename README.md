@@ -41,3 +41,9 @@ source $(brew --prefix nvm)/nvm.sh
 `yarn add webpack webpack-cli --dev` only need pre-build
 
 ----------
+
+add to .gitignore:
+
+.DS_Store
+node_modules
+dist
