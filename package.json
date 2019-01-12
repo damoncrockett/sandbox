@@ -1,7 +1,26 @@
 {
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.11"
+  },
+  "name": "sandbox",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damoncrockett/sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damoncrockett/sandbox/issues"
+  },
+  "homepage": "https://github.com/damoncrockett/sandbox#readme"
 }
