@@ -34,6 +34,10 @@ source $(brew --prefix nvm)/nvm.sh
 
 ----------
 
+Make GitHub repo for the project and clone locally
+
+----------
+
 `npm init -y` answers 'yes' to all prompts
 
 ----------
