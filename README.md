@@ -53,3 +53,11 @@ add to .gitignore:
 node_modules
 
 dist
+
+----------
+
+`yarn add webpack-dev-server --dev`
+
+add start and build scripts to package.json
+
+create webpack.config.js and point to index.html
