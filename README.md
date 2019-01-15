@@ -62,7 +62,7 @@ add start and build scripts to package.json
 
 ----------
 
-add webpack loaders: css, style, buble
+`yarn add buble buble-loader css-loader style-loader --dev`
 
 add loader rules to webpack config
 
@@ -74,8 +74,8 @@ fill out webpack config as it appears here (note: 'template' index.html in proje
 
 ----------
 
-add react, react-dom
+`yarn add react react-dom`
 
 ----------
 
-Fill in boilerplate for index.html, index.js, App.js, style.css (to test css and style loaders)
+Fill in boilerplate for index.html, index.js, App.js, style.css
