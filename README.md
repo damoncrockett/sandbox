@@ -59,3 +59,23 @@ dist
 `yarn add webpack-dev-server --dev`
 
 add start and build scripts to package.json
+
+----------
+
+add webpack loaders: css, style, buble
+
+add loader rules to webpack config
+
+----------
+
+structure project as it appears here
+
+fill out webpack config as it appears here (note: 'template' index.html in project root dir, not src/)
+
+----------
+
+add react, react-dom
+
+----------
+
+Fill in boilerplate for index.html, index.js, App.js, style.css (to test css and style loaders)
