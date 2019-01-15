@@ -62,9 +62,9 @@ add start and build scripts to package.json
 
 ----------
 
-`yarn add buble buble-loader css-loader style-loader --dev`
+`yarn add buble buble-loader css-loader style-loader html-webpack-plugin --dev`
 
-add loader rules to webpack config
+add loader rules and html plugin to webpack config
 
 ----------
 
