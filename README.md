@@ -24,9 +24,9 @@ source $(brew --prefix nvm)/nvm.sh
 
 ----------
 
-`nvm install 10.13.0`
+`nvm install 16.13.1`
 
-`nvm use 10.13.0`
+`nvm use 16.13.1`
 
 ----------
 
