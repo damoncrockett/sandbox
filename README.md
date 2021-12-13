@@ -53,18 +53,31 @@ source $(brew --prefix nvm)/nvm.sh
 add to .gitignore:
 
 .DS_Store
+
 node_modules
+
 dist
+
 fonts
+
 utils/__pycache__
+
 utils/.ipynb_checkpoints
+
 utils/*.ipynb
+
 .yarn/*
+
 !.yarn/patches
+
 !.yarn/releases
+
 !.yarn/plugins
+
 !.yarn/sdks
+
 !.yarn/versions
+
 .pnp.*
 
 ----------
