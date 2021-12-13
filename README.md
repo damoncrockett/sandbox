@@ -4,6 +4,10 @@ These instructions assume a fresh Mac without Homebrew, nvm, or yarn
 
 ----------
 
+Make GitHub repo for the project and clone locally
+
+----------
+
 install Homebrew
 
 ----------
@@ -30,11 +34,11 @@ source $(brew --prefix nvm)/nvm.sh
 
 ----------
 
-`brew install yarn --without-node`
+`corepack enable`
 
 ----------
 
-Make GitHub repo for the project and clone locally
+`yarn init -2`
 
 ----------
 
