@@ -42,7 +42,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 ----------
 
-`npm init -y` answers 'yes' to all prompts [update: no longer necessary]
+`npm init -y` answers 'yes' to all prompts
 
 ----------
 
