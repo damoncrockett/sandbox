@@ -7,34 +7,30 @@ const paths = {
 }
 
 module.exports = {
-  entry: path.resolve(paths.src,'index.js'),
+  entry: path.resolve(paths.src, 'index.js'),
   resolve: {
-    extensions: ['.js', '.jsx', ],
+    extensions: ['.js', '.jsx'],
   },
   output: {
     path: paths.dist,
     filename: 'bundle.js',
+    publicPath: ''
   },
-
   devServer: {
-    contentBase: paths.dist, //where webpack puts new index.html
+    static: paths.dist,
     compress: true,
     port: 8080,
-    stats: 'errors-only',
     open: true
   },
-
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         include: paths.src,
-        exclude: path.resolve(__dirname, 'node_modules'),
+        exclude: /node_modules/,
         use: {
-          loader: 'buble-loader',
-          options: {
-            objectAssign: 'Object.assign'
-          }
+          loader: 'babel-loader',
+          // No need for 'options' here if you're using a .babelrc or babel.config.json file
         },
       },
       {
