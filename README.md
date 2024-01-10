@@ -88,9 +88,15 @@ add start and build scripts to package.json
 
 ----------
 
-`yarn add buble buble-loader css-loader style-loader html-webpack-plugin --dev`
+`yarn add css-loader style-loader html-webpack-plugin --dev`
 
 add loader rules and html plugin to webpack config
+
+----------
+
+`yarn add @babel/core babel-loader @babel/preset-env @babel/preset-react --dev`
+
+create babel.config.json
 
 ----------
 
